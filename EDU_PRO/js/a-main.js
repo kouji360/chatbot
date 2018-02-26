@@ -1,15 +1,16 @@
 $(function(){
+    //画像出したい
+    //内容によって画像変える
 
-$("#inputArea").change(function () {
-    var val = $(this).val();
-    if(val == "AAA"){
-        alert("AAA");
-    }
-   });
+
+    //リスナー
     $("#sendButton").click(function () {
         var val = $("#inputArea").val();
         alert(returnAnyKeyword(val));
     });
+
+
+    //ロジック
 
     //オウム返し機能
     function returnOwm (tag) {
