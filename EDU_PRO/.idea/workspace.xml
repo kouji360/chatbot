@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd7f872d-c8da-43f0-9cc2-526ec3058117" name="Default" comment="" />
+    <list default="true" id="bd7f872d-c8da-43f0-9cc2-526ec3058117" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/うえ顔.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/どや顔.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/エロ顔.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/口笛顔.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/呆れ顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/困り顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/困り顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/怒り顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/怒り顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/怒り顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/怒り顔４.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/恐怖１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔４.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔５.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔６.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/泣き顔７.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔４.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔５.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔６.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/照れ顔７.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/真顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/真顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/真顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔１０.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔１１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔１２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔１３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔４.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔５.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔６.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔７.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔８.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/笑顔９.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/驚き顔１.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/驚き顔２.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/驚き顔３.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/驚き顔４.png" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +112,8 @@
       <file leaf-file-name="a-main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/a-main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="315">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -116,6 +162,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -191,6 +240,9 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kouji\Desktop\develop\git\chatbot\EDU_PRO\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\EDU_PRO\js" />
     </key>
@@ -878,12 +930,12 @@
       <workItem from="1519574245760" duration="2759000" />
       <workItem from="1519577138212" duration="481000" />
       <workItem from="1519647874736" duration="2099000" />
-      <workItem from="1519650721244" duration="7635000" />
+      <workItem from="1519650721244" duration="8621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13631000" />
+    <option name="totallyTimeSpent" value="14617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -896,7 +948,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1118,8 +1170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/a-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>
