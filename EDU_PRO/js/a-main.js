@@ -6,10 +6,13 @@ $(function() {
     // 2.返答内容
     // 3.画像の種類
 
+
+
     //リスナー
     $("#sendButton").click(function () {
         var val = $("#inputArea").val();
-        alert(returnAnyKeyword(val));
+        $("#response").text(returnAnyKeyword(val));
+        //alert(returnAnyKeyword(val));
     });
     class responseObj {
         constructor(keywordList, responseMsg, imgSrc) {

@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/a-main.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <title>Title</title>
 </head>
 <body>
-<div>
-    <span>何か入力してください</span>
+<!-- htmlにはコメントを書くことができます。備忘録です。これは出力されません -->
+<div class="input-main">
+    <div>
+        <span>ゆかりとお話したいことを入力してね！</span>
+    </div>
+    <div>
+        <input type="text" id="inputArea" value=""/>
+        <input type="button" value="送信" id="sendButton">
+    </div>
 </div>
-<div>
-    <input type="text" id="inputArea" value=""/>
-    <input type="button" value="送信" id = "sendButton">
-</div>
-<div>
+<div class="main">
     <img id="yukari" src="../image/真顔１.png" width="25%" height="25%">
+    <span id="response" class="response vertical">ゆかりちゃんからの返答</span>
 </div>
 
 </body>
