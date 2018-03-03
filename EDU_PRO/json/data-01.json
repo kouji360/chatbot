@@ -1,0 +1,26 @@
+{
+  "data":[
+    {
+      "keywordList": ["ネオジオン","シャア"],
+      "responseMsg": "ジークジオン！",
+      "imgSrc": "../image/笑顔５.png"
+    },
+    {
+      "keywordList": ["空腹","お腹すいた","ごはん"],
+      "responseMsg": "どっか食べにいってきなよー",
+      "imgSrc": "../image/困り顔１.png"
+    },
+    {
+      "keywordList": ["ネオジオン","シャア"],
+      "responseMsg": "ジークジオン！",
+      "imgSrc": "../image/笑顔５.png"
+    },
+    {
+      "keywordList": ["こんにちわ"],
+      "responseMsg": "こんにちわ",
+      "imgSrc": "../image/笑顔２.png"
+    }
+  ]
+
+
+}

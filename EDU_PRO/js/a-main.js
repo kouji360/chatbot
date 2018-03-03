@@ -12,7 +12,7 @@ $(function() {
     $("#sendButton").click(function () {
         var val = $("#inputArea").val();
         $("#response").text(returnAnyKeyword(val));
-        //alert(returnAnyKeyword(val));
+        console.log(returnAnyKeyword(val));
     });
     class responseObj {
         constructor(keywordList, responseMsg, imgSrc) {
@@ -38,6 +38,7 @@ $(function() {
         responseList.push(new responseObj(["ネオジオン", "シャア"], "ジークジオン！", "../image/笑顔５.png"));
         responseList.push(new responseObj(["空腹", "お腹すいた", "ごはん"], "どっか食べにいってきなよー", "../image/困り顔１.png"));
         responseList.push(new responseObj(["こんにちわ"], "こんにちわ", "../image/笑顔２.png"));
+        responseList.push();
 
         return responseList;
 
@@ -53,10 +54,13 @@ $(function() {
         // tagMaps.set('こんばんわ','こんばんわ！');
         // var rtn = tagMaps.get(keyStr);
 
-        const responseList = getResponseData();
+        const responseList = getJsonData();
+
+        alert(responseList);
 
         for (let v of responseList) {
             const keywords = v.keywordList;
+            alert(keywords);
             //キーワードに一致
             if (keywords.indexOf(keyStr) >= 0) {
                 //画像切り替え
@@ -67,6 +71,27 @@ $(function() {
         }
         return "「" + keyStr + "」って、どういう意味ですか？";
     };
+
+    function getJsonData(){
+        var responseList = [];
+        $.getJSON("../json/data-01.json" , function(data) {
+            for (let v in data.data) {
+                // alert(data.data[v].keywordList)
+                // alert(data.data[v].responseMsg);
+                // alert(data.data[v].imgSrc);
+                const tag = new responseObj(
+                    data.data[v].keywordList,
+                    data.data[v].responseMsg,
+                    data.data[v].imgSrc);
+                alert(tag.keywordList);
+                alert(tag.responseMsg);
+                alert(tag.imgSrc);
+                responseList.push(tag);
+            }
+        });
+        return responseList;
+
+    }
 
 
 });
