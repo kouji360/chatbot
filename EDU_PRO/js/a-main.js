@@ -56,11 +56,8 @@ $(function() {
 
         const responseList = getJsonData();
 
-        alert(responseList);
-
         for (let v of responseList) {
             const keywords = v.keywordList;
-            alert(keywords);
             //キーワードに一致
             if (keywords.indexOf(keyStr) >= 0) {
                 //画像切り替え
@@ -83,9 +80,6 @@ $(function() {
                     data.data[v].keywordList,
                     data.data[v].responseMsg,
                     data.data[v].imgSrc);
-                alert(tag.keywordList);
-                alert(tag.responseMsg);
-                alert(tag.imgSrc);
                 responseList.push(tag);
             }
         });
